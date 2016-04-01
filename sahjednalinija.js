@@ -1,0 +1,1 @@
+var w = "░░", b = "▓▓", l = "", c = true; for (var i = 0; i < 65; i++) i % 8 === 0 ? function() { console.log(l); l = ""; c = ! c; }() : (l += i % 2 == 0 ? (c ? w : b) : (!c ? w : b));
